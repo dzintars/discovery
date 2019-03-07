@@ -1,0 +1,87 @@
+base:
+  service:
+    name: mysql
+    host: 192.168.1.2
+    port: :3306
+    user: dev
+    pass: development
+client:
+  service:
+    name: main-client
+    host: 192.168.1.2
+    port: :8081
+cmd-delivery-orders:
+  service:
+    name: cmd-delivery-orders
+    host: 192.168.1.2
+    port: :8082
+cmd-page-view:
+  service:
+    name: cmd-page-view
+    host: 192.168.1.2
+    port: :8083
+cmd-routes:
+  service:
+    name: cmd-route
+    host: 192.168.1.2
+    port: :8084
+cmd-signin:
+  service:
+    name: cmd-signin
+    host: 192.168.1.2
+    port: :8085
+cmd-signup:
+  service:
+    name: cmd-signup
+    host: 192.168.1.2
+    port: :8086
+cmd-messages:
+  service:
+    name: cmd-messages
+    host: 192.168.1.2
+    port: :8087
+eh-delivery-orders:
+  service:
+    name: delivery-orders
+    host: 192.168.1.2
+    port: :8090
+eh-routes:
+  service:
+    name: routes
+    host: 192.168.1.2
+    port: :8091
+eh-signup:
+  service:
+    name: signup
+    host: 192.168.1.2
+    port: :8092
+qry-app:
+  service:
+    name: app
+    host: 192.168.1.2
+    port: :9010
+qry-delivery-orders:
+  service:
+    name: delivery-orders
+    host: 192.168.1.2
+    port: :9011
+qry-routes:
+  service:
+    name: routes
+    host: 192.168.1.2
+    port: :9012
+qry-signin:
+  service:
+    name: signin
+    host: 192.168.1.2
+    port: :9013
+qry-messages:
+  service:
+    name: qry-messages
+    host: 192.168.1.2
+    port: :9014
+api:
+  service:
+    name: api-service
+    host: 192.168.1.2
+    port: :9020
