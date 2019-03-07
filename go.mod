@@ -1,4 +1,4 @@
-module github.com/oswee/srp/discovery
+module github.com/oswee/discovery
 
 require (
 	github.com/gorilla/mux v1.6.2
