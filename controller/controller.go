@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/oswee/srp/discovery/domain"
+	"github.com/oswee/discovery/domain"
 )
 
 type Controller struct {

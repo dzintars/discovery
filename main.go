@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/jakewright/muxinator"
-	"github.com/oswee/srp/discovery/controller"
-	"github.com/oswee/srp/discovery/domain"
-	"github.com/oswee/srp/discovery/service"
+	"github.com/oswee/discovery/controller"
+	"github.com/oswee/discovery/domain"
+	"github.com/oswee/discovery/service"
 )
 
 func main() {

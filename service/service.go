@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/oswee/srp/discovery/domain"
+	"github.com/oswee/discovery/domain"
 )
 
 type ConfigService struct {
