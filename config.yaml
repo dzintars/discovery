@@ -40,6 +40,21 @@ cmd-messages:
     name: cmd-messages
     host: 192.168.1.2
     port: :8087
+cmd-shipping-project:
+  service:
+    name: cmd-shipping-project
+    host: 192.168.1.2
+    port: :24001
+cmd-shipping-waylist:
+  service:
+    name: cmd-shipping-waylist
+    host: 192.168.1.2
+    port: :24002
+cmd-shipping-order:
+  service:
+    name: cmd-shipping-order
+    host: 192.168.1.2
+    port: :24003
 eh-delivery-orders:
   service:
     name: delivery-orders
