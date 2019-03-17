@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 	"time"
 
 	"github.com/jakewright/muxinator"
@@ -11,7 +12,7 @@ import (
 )
 
 func main() {
-	// port := os.Getenv("SERVICE_PORT")
+	port := os.Getenv("SERVICE_PORT")
 
 	config := domain.Config{}
 
@@ -30,5 +31,5 @@ func main() {
 	router := muxinator.NewRouter()
 	router.Get("/read/{serviceName}", c.ReadConfig)
 
-	log.Fatal(router.ListenAndServe(":" + "9000"))
+	log.Fatal(router.ListenAndServe(":" + port))
 }
