@@ -107,7 +107,7 @@ qry-shipping-waylists:
     port: :20202
 qry-shipping-orders:
   service:
-    name: qryshipping-orders
+    name: qry-shipping-orders
     host: 192.168.1.2
     port: :20203
 api:
