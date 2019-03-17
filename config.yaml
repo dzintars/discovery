@@ -40,21 +40,21 @@ cmd-messages:
     name: cmd-messages
     host: 192.168.1.2
     port: :8087
-cmd-shipping-project:
+cmd-shipping-projects:
   service:
-    name: cmd-shipping-project
+    name: cmd-shipping-projects
     host: 192.168.1.2
-    port: :24001
-cmd-shipping-waylist:
+    port: :20101
+cmd-shipping-waylists:
   service:
-    name: cmd-shipping-waylist
+    name: cmd-shipping-waylists
     host: 192.168.1.2
-    port: :24002
-cmd-shipping-order:
+    port: :20102
+cmd-shipping-orders:
   service:
-    name: cmd-shipping-order
+    name: cmd-shipping-orders
     host: 192.168.1.2
-    port: :24003
+    port: :20103
 eh-delivery-orders:
   service:
     name: delivery-orders
@@ -95,6 +95,21 @@ qry-messages:
     name: qry-messages
     host: 192.168.1.2
     port: :9014
+qry-shipping-projects:
+  service:
+    name: qry-shipping-projects
+    host: 192.168.1.2
+    port: :20201
+qry-shipping-waylists:
+  service:
+    name: qry-shipping-waylists
+    host: 192.168.1.2
+    port: :20202
+qry-shipping-orders:
+  service:
+    name: qry-shipping-orders
+    host: 192.168.1.2
+    port: :20203
 api:
   service:
     name: api-service

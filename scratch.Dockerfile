@@ -19,7 +19,7 @@ CMD ["./main"]
 
 
 # docker build -t oswee/config:latest . -f scratch.Dockerfile
-# docker run --rm -d -p 9000:9000 oswee/config:latest
+# docker run --rm -d -p 9000:9000 oswee/discovery:latest --name discovery
 
 ### Test 2nd Traefik docker container
 # docker run -d --label "traefik.frontend.rule=Host:oswee.com" --network web nginx:latest
