@@ -95,19 +95,19 @@ qry-messages:
     name: qry-messages
     host: 192.168.1.2
     port: :9014
-qry-shippingprojects:
+qry-shipping-projects:
   service:
-    name: qry-shippingprojects
+    name: qry-shipping-projects
     host: 192.168.1.2
     port: :20201
-qry-shippingwaylists:
+qry-shipping-waylists:
   service:
-    name: qry-shippingwaylists
+    name: qry-shipping-waylists
     host: 192.168.1.2
     port: :20202
 qry-shipping-orders:
   service:
-    name: qryshippingorders
+    name: qryshipping-orders
     host: 192.168.1.2
     port: :20203
 api:
