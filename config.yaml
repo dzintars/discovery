@@ -55,6 +55,14 @@ cmd-shipping-orders:
     name: cmd-shipping-orders
     host: 192.168.1.2
     port: :20103
+cmd-stakeholders:
+  service:
+    name: cmd-stakeholders
+    host: 192.168.1.2
+    port: :20104
+
+
+
 eh-delivery-orders:
   service:
     name: delivery-orders
@@ -70,6 +78,9 @@ eh-signup:
     name: signup
     host: 192.168.1.2
     port: :8092
+
+
+
 qry-app:
   service:
     name: app
@@ -110,6 +121,14 @@ qry-shipping-orders:
     name: qry-shipping-orders
     host: 192.168.1.2
     port: :20203
+qry-stakeholders:
+  service:
+    name: qry-stakeholders
+    host: 192.168.1.2
+    port: :20204
+
+
+
 api:
   service:
     name: api-service
