@@ -18,7 +18,7 @@ WORKDIR /app
 CMD ["./main"]
 
 
-# docker build -t oswee/config:latest . -f scratch.Dockerfile
+# docker build -t oswee/discovery:latest . -f scratch.Dockerfile
 # docker run --rm -d -p 9000:9000 oswee/discovery:latest --name discovery
 
 ### Test 2nd Traefik docker container
