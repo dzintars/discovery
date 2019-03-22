@@ -60,6 +60,11 @@ cmd-stakeholders:
     name: cmd-stakeholders
     host: 192.168.1.2
     port: :20104
+cmd-sessions:
+  service:
+    name: cmd-sessions
+    host: 192.168.1.2
+    port: :20105
 
 
 
@@ -126,6 +131,11 @@ qry-stakeholders:
     name: qry-stakeholders
     host: 192.168.1.2
     port: :20204
+qry-sessions:
+  service:
+    name: qry-sessions
+    host: 192.168.1.2
+    port: :20205
 
 
 
